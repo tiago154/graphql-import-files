@@ -1,0 +1,6 @@
+type UserTest {
+  id: Int!
+  name: String!
+  age: Int
+  tags: [String!]!
+}
