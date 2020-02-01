@@ -2,6 +2,7 @@
   "name": "graphql-import-files",
   "version": "0.0.1",
   "description": "Light and easy package that will load .graphql files and use them with syntax highlighting.",
+  "repository": "git@github.com:tiago154/graphql-import-files.git",
   "main": "./src/index.js",
   "scripts": {
     "test": "jest"
