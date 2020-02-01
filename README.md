@@ -22,6 +22,7 @@ root
 Use the function ``loadFile`` that will load a single file.
 
 ```js
+// index.js
 const { ApolloServer } = require('apollo-server')
 const { loadFile } = require('graphql-import-files')
 const resolvers = require('./resolvers')
@@ -56,6 +57,7 @@ root
 Use the function ``loadFiles`` that will load multiple files.
 
 ```js
+// index.js
 const { ApolloServer } = require('apollo-server')
 const { loadFiles } = require('graphql-import-files')
 const resolvers = require('./resolvers')
