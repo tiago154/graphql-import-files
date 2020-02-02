@@ -1,4 +1,5 @@
 # graphql-import-files
+Light and easy package that will load .graphql files and use them with syntax highlighting.
 
 ## Install
 
@@ -28,7 +29,7 @@ const { loadFile } = require('graphql-import-files')
 const resolvers = require('./resolvers')
 
 const server = new ApolloServer({
-  typeDefs: loadFile('./schema/schema.graphql'),
+  typeDefs: loadFile('./schema/schema.graphql'), // Always consider the path at the root of the project
   resolvers
 })
 

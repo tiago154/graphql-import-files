@@ -1,6 +1,6 @@
 {
   "name": "graphql-import-files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Light and easy package that will load .graphql files and use them with syntax highlighting.",
   "repository": "git@github.com:tiago154/graphql-import-files.git",
   "main": "./src/index.js",
@@ -9,13 +9,21 @@
   },
   "author": "Tiago Santos Da Silva",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tiago154/graphql-import-files/issues"
+  },
   "keywords": [
-    "graphql",
-    "import",
-    "require",
-    "apollo",
-    "schema",
-    "gql"
+    "graphql-import-files",
+    "graphql-import",
+    "graphql import",
+    "graphql-require-files",
+    "graphql-require",
+    "graphql require",
+    "graphql schema",
+    "graphql apollo schema",
+    "graphql gql",
+    "gql",
+    "graphql"
   ],
   "devDependencies": {
     "@types/jest": "25.1.1",
