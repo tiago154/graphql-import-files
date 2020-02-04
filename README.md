@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/tiago154/graphql-import-files/badge.svg)](https://coveralls.io/github/tiago154/graphql-import-files)
+
 # graphql-import-files
 Light and easy package that will load .graphql files and use them with syntax highlighting.
 
