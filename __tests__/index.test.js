@@ -14,7 +14,6 @@ describe('loadFile', () => {
       try {
         loadFile('./__tests__/mocks/file/error.graphql')
       } catch (error) {
-        expect(error.message).toContain('__tests__\\mocks\\file\\error.graphql')
         expect(error.code).toBe('ENOENT')
       }
     })
