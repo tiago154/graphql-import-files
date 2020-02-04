@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/tiago154/graphql-import-files.svg?branch=master)](https://travis-ci.com/tiago154/graphql-import-files)
+
 [![Coverage Status](https://coveralls.io/repos/github/tiago154/graphql-import-files/badge.svg)](https://coveralls.io/github/tiago154/graphql-import-files)
 
 # graphql-import-files
