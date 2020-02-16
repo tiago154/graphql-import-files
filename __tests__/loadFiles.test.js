@@ -7,7 +7,9 @@ describe('loadFiles', () => {
       const gropPattern = '**/__tests__/mocks/multifiles/**/*.{graphql,gql}'
       const schema = loadFiles(gropPattern)
 
-      expect(schema).toMatchSnapshot()
+      const schemaBuild = buildSchemaFromTypeDefinitions(schema)
+
+      expect(schemaBuild).toMatchSnapshot()
     })
 
     it('should build the schema even with files with separate queries', () => {
