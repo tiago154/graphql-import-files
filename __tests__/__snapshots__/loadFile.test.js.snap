@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`loadFile success should valid schema 1`] = `
+"type UserTest {
+  id: Int!
+  name: String!
+  age: Int
+  tags: [String!]!
+}"
+`;
