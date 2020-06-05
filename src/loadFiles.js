@@ -1,8 +1,7 @@
 const fs = require('fs')
 const path = require('path')
-const glob = require('glob')
+const glob = require('fast-glob')
 const { mergeTypeDefs } = require('@graphql-toolkit/schema-merging')
-
 
 /**
  * Loads multiple graphql files, use .graphql or .gql.
