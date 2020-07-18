@@ -1,8 +1,18 @@
+<div align="center">
+
+![npm](https://img.shields.io/npm/dy/graphql-import-files?color=%2303a1fc&style=for-the-badge)
+
+</div>
+
+<div align="center">
+
 [![Build Status](https://travis-ci.com/tiago154/graphql-import-files.svg?branch=master)](https://travis-ci.com/tiago154/graphql-import-files)
 [![Coverage Status](https://coveralls.io/repos/github/tiago154/graphql-import-files/badge.svg)](https://coveralls.io/github/tiago154/graphql-import-files)
 [![Dependencies Status](https://david-dm.org/tiago154/graphql-import-files/status.svg)](https://david-dm.org/tiago154/graphql-import-files)
 [![Npm Version](https://img.shields.io/npm/v/graphql-import-files.svg)](https://www.npmjs.com/package/graphql-import-files)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tiago154/graphql-import-files)
+
+</div>
 
 # graphql-import-files
 Light and easy package that will load .graphql files and use them with syntax highlighting.
