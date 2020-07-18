@@ -6,7 +6,7 @@ const { mergeTypeDefs } = require('@graphql-tools/merge')
 /**
  * Loads multiple graphql files, use .graphql or .gql.
  * @param {string} matchFiles - The glob patterns uses to detect graphql files
- * @return {DocumentNode} DocumentNode
+ * @return {object} DocumentNode
  */
 module.exports = matchFiles => {
   const files = glob.sync(matchFiles)
