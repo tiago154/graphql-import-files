@@ -2,18 +2,18 @@
 
 exports[`loadFiles success should build the schema even with files with separate queries 1`] = `
 GraphQLSchema {
-  "__allowedLegacyNames": Array [],
   "__validationErrors": undefined,
   "_directives": Array [
     "@skip",
     "@include",
     "@deprecated",
+    "@specifiedBy",
   ],
-  "_implementations": Object {},
-  "_mutationType": null,
-  "_possibleTypeMap": Object {},
+  "_implementationsMap": Object {},
+  "_mutationType": undefined,
   "_queryType": "Query",
-  "_subscriptionType": null,
+  "_subTypeMap": Object {},
+  "_subscriptionType": undefined,
   "_typeMap": Object {
     "Boolean": "Boolean",
     "Int": "Int",
@@ -30,6 +30,7 @@ GraphQLSchema {
     "__TypeKind": "__TypeKind",
   },
   "astNode": Object {
+    "description": undefined,
     "directives": Array [],
     "kind": "SchemaDefinition",
     "loc": Object {
@@ -62,25 +63,26 @@ GraphQLSchema {
       },
     ],
   },
-  "extensionASTNodes": undefined,
+  "description": undefined,
+  "extensionASTNodes": Array [],
   "extensions": undefined,
 }
 `;
 
 exports[`loadFiles success should valid schema with many file 1`] = `
 GraphQLSchema {
-  "__allowedLegacyNames": Array [],
   "__validationErrors": undefined,
   "_directives": Array [
     "@skip",
     "@include",
     "@deprecated",
+    "@specifiedBy",
   ],
-  "_implementations": Object {},
-  "_mutationType": null,
-  "_possibleTypeMap": Object {},
+  "_implementationsMap": Object {},
+  "_mutationType": undefined,
   "_queryType": "Query",
-  "_subscriptionType": null,
+  "_subTypeMap": Object {},
+  "_subscriptionType": undefined,
   "_typeMap": Object {
     "Boolean": "Boolean",
     "Float": "Float",
@@ -100,6 +102,7 @@ GraphQLSchema {
     "__TypeKind": "__TypeKind",
   },
   "astNode": Object {
+    "description": undefined,
     "directives": Array [],
     "kind": "SchemaDefinition",
     "loc": Object {
@@ -132,7 +135,8 @@ GraphQLSchema {
       },
     ],
   },
-  "extensionASTNodes": undefined,
+  "description": undefined,
+  "extensionASTNodes": Array [],
   "extensions": undefined,
 }
 `;

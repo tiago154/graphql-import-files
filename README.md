@@ -1,6 +1,6 @@
 <div align="center">
 
-![npm](https://img.shields.io/npm/dy/graphql-import-files?color=%2303a1fc&style=for-the-badge)
+[![npm](https://img.shields.io/npm/dy/graphql-import-files?color=%2303a1fc&style=for-the-badge)](https://npm-stat.com/charts.html?package=graphql-import-files)
 
 </div>
 
