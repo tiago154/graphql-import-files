@@ -1,9 +1,10 @@
 {
   "name": "graphql-import-files",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Light and easy package that will load .graphql files and use them with syntax highlighting.",
   "repository": "git@github.com:tiago154/graphql-import-files.git",
-  "main": "./src/index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
     "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
