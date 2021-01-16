@@ -6,7 +6,8 @@
   "main": "./src/index.js",
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls"
+    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "build": "tsc"
   },
   "author": "Tiago Santos Da Silva",
   "license": "MIT",
@@ -27,17 +28,21 @@
     "graphql"
   ],
   "devDependencies": {
-    "@types/jest": "^26.0.4",
+    "@types/jest": "^26.0.20",
+    "@typescript-eslint/eslint-plugin": "^4.13.0",
+    "@typescript-eslint/parser": "^4.13.0",
     "apollo-server": "2.16.0",
     "coveralls": "3.1.0",
-    "eslint": "^7.4.0",
-    "eslint-config-standard": "14.1.1",
-    "eslint-plugin-import": "2.22.0",
-    "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1",
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-standard": "4.0.1",
     "graphql": "^15.3.0",
-    "jest": "^26.1.0"
+    "jest": "^26.1.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.3"
   },
   "dependencies": {
     "@graphql-tools/merge": "^6.0.14",
