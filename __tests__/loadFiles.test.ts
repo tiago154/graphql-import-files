@@ -1,5 +1,5 @@
-const { loadFiles } = require('../src')
-const { buildSchemaFromTypeDefinitions } = require('apollo-server')
+import { loadFiles } from '../src'
+import { buildSchemaFromTypeDefinitions } from 'apollo-server'
 
 describe('loadFiles', () => {
   describe('success', () => {

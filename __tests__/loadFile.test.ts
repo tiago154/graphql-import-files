@@ -1,4 +1,4 @@
-const { loadFile } = require('../src')
+import { loadFile } from '../src'
 
 describe('loadFile', () => {
   describe('success', () => {
