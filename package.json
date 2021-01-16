@@ -47,5 +47,8 @@
   "dependencies": {
     "@graphql-tools/merge": "^6.0.14",
     "fast-glob": "^3.2.4"
-  }
+  },
+  "files": [
+    "dist/**/*"
+  ]
 }
