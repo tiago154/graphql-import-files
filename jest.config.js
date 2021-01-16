@@ -1,9 +1,13 @@
 module.exports = {
-  clearMocks: true,
-  collectCoverage: true,
-  collectCoverageFrom: ['**/src/**/*.js'],
-  coverageDirectory: 'coverage',
+  preset: 'ts-jest',
   testEnvironment: 'node',
-  testMatch: ['**/__tests__/**/*.test.js'],
+  coverageDirectory: 'coverage',
+  collectCoverage: true,
+  collectCoverageFrom: [
+    '**/src/**/*.ts'
+  ],
+  testMatch: [
+    '**/__tests__/**/*.test.ts'
+  ],
   verbose: true
 }
