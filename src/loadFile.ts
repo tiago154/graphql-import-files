@@ -1,5 +1,5 @@
-const fs = require('fs')
-const path = require('path')
+import { readFileSync } from 'fs'
+import { join } from 'path'
 
 /**
  * Place the path of the file to be imported, considering the root of the project.
@@ -7,5 +7,5 @@ const path = require('path')
  * @param {string} pathFile
  * @return {string} String of a scheme
  */
-module.exports = pathFile =>
-  fs.readFileSync(path.join(process.cwd(), pathFile), 'utf8')
+export const loadFile = (pathFile: string) : string =>
+  readFileSync(join(process.cwd(), pathFile), 'utf8')
