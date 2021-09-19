@@ -11,11 +11,7 @@ describe('loadFile', () => {
 
   describe('failure', () => {
     it('should an error when not finding the file', () => {
-      try {
-        loadFile('./__tests__/mocks/file/error.graphql')
-      } catch (error) {
-        expect(error.code).toBe('ENOENT')
-      }
+      expect(() => loadFile('./__tests__/mocks/file/error.graphql')).toThrowError()
     })
   })
 })
