@@ -1,11 +1,13 @@
 import { readFileSync } from 'fs'
 import { join } from 'path'
+import { mergeTypeDefs } from '@graphql-tools/merge'
+import { DocumentNode } from 'graphql'
 
 /**
  * Place the path of the file to be imported, considering the root of the project.
  * @example ./schemas/file.graphql
  * @param {string} pathFile
- * @return {string} String of a scheme
+ * @return {DocumentNode} DocumentNode
  */
-export const loadFile = (pathFile: string) : string =>
-  readFileSync(join(process.cwd(), pathFile), 'utf8')
+export const loadFile = (pathFile: string) : DocumentNode =>
+  mergeTypeDefs(readFileSync(join(process.cwd(), pathFile), 'utf8'))
