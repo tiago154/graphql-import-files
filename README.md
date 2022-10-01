@@ -8,7 +8,7 @@
 
 [![Build Status](https://travis-ci.com/tiago154/graphql-import-files.svg?branch=master)](https://travis-ci.com/tiago154/graphql-import-files)
 [![Coverage Status](https://coveralls.io/repos/github/tiago154/graphql-import-files/badge.svg)](https://coveralls.io/github/tiago154/graphql-import-files)
-[![Dependencies Status](https://david-dm.org/tiago154/graphql-import-files/status.svg)](https://david-dm.org/tiago154/graphql-import-files)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/tiago154/graphql-import-files)
 [![Npm Version](https://img.shields.io/npm/v/graphql-import-files.svg)](https://www.npmjs.com/package/graphql-import-files)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/tiago154/graphql-import-files)
 
