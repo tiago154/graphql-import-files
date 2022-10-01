@@ -1,10 +1,196 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`loadFile success should valid schema 1`] = `
-"type UserTest {
-  id: Int!
-  name: String!
-  age: Int
-  tags: [String!]!
-}"
+{
+  "definitions": [
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 27,
+            "start": 19,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 21,
+              "start": 19,
+            },
+            "value": "id",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 27,
+              "start": 23,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 26,
+                "start": 23,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 26,
+                  "start": 23,
+                },
+                "value": "Int",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 44,
+            "start": 31,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 35,
+              "start": 31,
+            },
+            "value": "name",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 44,
+              "start": 37,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 43,
+                "start": 37,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 43,
+                  "start": 37,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 56,
+            "start": 48,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 51,
+              "start": 48,
+            },
+            "value": "age",
+          },
+          "type": {
+            "kind": "NamedType",
+            "loc": {
+              "end": 56,
+              "start": 53,
+            },
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 56,
+                "start": 53,
+              },
+              "value": "Int",
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 76,
+            "start": 60,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 64,
+              "start": 60,
+            },
+            "value": "tags",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 76,
+              "start": 66,
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 75,
+                "start": 66,
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 74,
+                  "start": 67,
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 73,
+                    "start": 67,
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 73,
+                      "start": 67,
+                    },
+                    "value": "String",
+                  },
+                },
+              },
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 79,
+        "start": 0,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 13,
+          "start": 5,
+        },
+        "value": "UserTest",
+      },
+    },
+  ],
+  "kind": "Document",
+}
 `;
