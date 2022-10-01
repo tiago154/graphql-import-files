@@ -1,44 +1,44 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`loadFiles success should build the schema even with files with separate queries 1`] = `
-Object {
-  "definitions": Array [
-    Object {
+{
+  "definitions": [
+    {
       "description": undefined,
-      "directives": Array [],
-      "fields": Array [
-        Object {
-          "arguments": Array [],
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 30,
             "start": 16,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 21,
               "start": 16,
             },
             "value": "hello",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 30,
               "start": 23,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 29,
                 "start": 23,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 29,
                   "start": 23,
                 },
@@ -47,38 +47,38 @@ Object {
             },
           },
         },
-        Object {
-          "arguments": Array [],
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 27,
             "start": 16,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 18,
               "start": 16,
             },
             "value": "hi",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 27,
               "start": 20,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 26,
                 "start": 20,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 26,
                   "start": 20,
                 },
@@ -88,51 +88,51 @@ Object {
           },
         },
       ],
-      "interfaces": Array [],
+      "interfaces": [],
       "kind": "ObjectTypeDefinition",
-      "loc": Object {
+      "loc": {
         "end": 30,
         "start": 0,
       },
-      "name": Object {
+      "name": {
         "kind": "Name",
-        "loc": Object {
+        "loc": {
           "end": 10,
           "start": 5,
         },
         "value": "Query",
       },
     },
-    Object {
+    {
       "description": undefined,
-      "directives": Array [],
-      "fields": Array [
-        Object {
-          "arguments": Array [],
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 56,
             "start": 49,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 51,
               "start": 49,
             },
             "value": "id",
           },
-          "type": Object {
+          "type": {
             "kind": "NamedType",
-            "loc": Object {
+            "loc": {
               "end": 56,
               "start": 53,
             },
-            "name": Object {
+            "name": {
               "kind": "Name",
-              "loc": Object {
+              "loc": {
                 "end": 56,
                 "start": 53,
               },
@@ -140,38 +140,38 @@ Object {
             },
           },
         },
-        Object {
-          "arguments": Array [],
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 73,
             "start": 60,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 64,
               "start": 60,
             },
             "value": "name",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 73,
               "start": 66,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 72,
                 "start": 66,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 72,
                   "start": 66,
                 },
@@ -181,32 +181,32 @@ Object {
           },
         },
       ],
-      "interfaces": Array [],
+      "interfaces": [],
       "kind": "ObjectTypeDefinition",
-      "loc": Object {
+      "loc": {
         "end": 76,
         "start": 34,
       },
-      "name": Object {
+      "name": {
         "kind": "Name",
-        "loc": Object {
+        "loc": {
           "end": 43,
           "start": 39,
         },
         "value": "User",
       },
     },
-    Object {
+    {
       "kind": "SchemaDefinition",
-      "operationTypes": Array [
-        Object {
+      "operationTypes": [
+        {
           "kind": "OperationTypeDefinition",
           "operation": "query",
-          "type": Object {
+          "type": {
             "kind": "NamedType",
-            "name": Object {
+            "name": {
               "kind": "Name",
-              "loc": Object {
+              "loc": {
                 "end": 10,
                 "start": 5,
               },
@@ -222,44 +222,44 @@ Object {
 `;
 
 exports[`loadFiles success should valid schema with many file 1`] = `
-Object {
-  "definitions": Array [
-    Object {
+{
+  "definitions": [
+    {
       "description": undefined,
-      "directives": Array [],
-      "fields": Array [
-        Object {
-          "arguments": Array [],
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 30,
             "start": 16,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 21,
               "start": 16,
             },
             "value": "hello",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 30,
               "start": 23,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 29,
                 "start": 23,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 29,
                   "start": 23,
                 },
@@ -269,57 +269,57 @@ Object {
           },
         },
       ],
-      "interfaces": Array [],
+      "interfaces": [],
       "kind": "ObjectTypeDefinition",
-      "loc": Object {
+      "loc": {
         "end": 33,
         "start": 0,
       },
-      "name": Object {
+      "name": {
         "kind": "Name",
-        "loc": Object {
+        "loc": {
           "end": 10,
           "start": 5,
         },
         "value": "Query",
       },
     },
-    Object {
+    {
       "description": undefined,
-      "directives": Array [],
-      "fields": Array [
-        Object {
-          "arguments": Array [],
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 25,
             "start": 18,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 20,
               "start": 18,
             },
             "value": "id",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 25,
               "start": 22,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 24,
                 "start": 22,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 24,
                   "start": 22,
                 },
@@ -328,38 +328,38 @@ Object {
             },
           },
         },
-        Object {
-          "arguments": Array [],
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 42,
             "start": 29,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 33,
               "start": 29,
             },
             "value": "name",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 42,
               "start": 35,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 41,
                 "start": 35,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 41,
                   "start": 35,
                 },
@@ -368,38 +368,38 @@ Object {
             },
           },
         },
-        Object {
-          "arguments": Array [],
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 59,
             "start": 46,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 51,
               "start": 46,
             },
             "value": "price",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 59,
               "start": 53,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 58,
                 "start": 53,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 58,
                   "start": 53,
                 },
@@ -409,57 +409,57 @@ Object {
           },
         },
       ],
-      "interfaces": Array [],
+      "interfaces": [],
       "kind": "ObjectTypeDefinition",
-      "loc": Object {
+      "loc": {
         "end": 62,
         "start": 0,
       },
-      "name": Object {
+      "name": {
         "kind": "Name",
-        "loc": Object {
+        "loc": {
           "end": 12,
           "start": 5,
         },
         "value": "Product",
       },
     },
-    Object {
+    {
       "description": undefined,
-      "directives": Array [],
-      "fields": Array [
-        Object {
-          "arguments": Array [],
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 23,
             "start": 15,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 17,
               "start": 15,
             },
             "value": "id",
           },
-          "type": Object {
+          "type": {
             "kind": "NonNullType",
-            "loc": Object {
+            "loc": {
               "end": 23,
               "start": 19,
             },
-            "type": Object {
+            "type": {
               "kind": "NamedType",
-              "loc": Object {
+              "loc": {
                 "end": 22,
                 "start": 19,
               },
-              "name": Object {
+              "name": {
                 "kind": "Name",
-                "loc": Object {
+                "loc": {
                   "end": 22,
                   "start": 19,
                 },
@@ -468,32 +468,32 @@ Object {
             },
           },
         },
-        Object {
-          "arguments": Array [],
+        {
+          "arguments": [],
           "description": undefined,
-          "directives": Array [],
+          "directives": [],
           "kind": "FieldDefinition",
-          "loc": Object {
+          "loc": {
             "end": 39,
             "start": 27,
           },
-          "name": Object {
+          "name": {
             "kind": "Name",
-            "loc": Object {
+            "loc": {
               "end": 31,
               "start": 27,
             },
             "value": "name",
           },
-          "type": Object {
+          "type": {
             "kind": "NamedType",
-            "loc": Object {
+            "loc": {
               "end": 39,
               "start": 33,
             },
-            "name": Object {
+            "name": {
               "kind": "Name",
-              "loc": Object {
+              "loc": {
                 "end": 39,
                 "start": 33,
               },
@@ -502,32 +502,32 @@ Object {
           },
         },
       ],
-      "interfaces": Array [],
+      "interfaces": [],
       "kind": "ObjectTypeDefinition",
-      "loc": Object {
+      "loc": {
         "end": 42,
         "start": 0,
       },
-      "name": Object {
+      "name": {
         "kind": "Name",
-        "loc": Object {
+        "loc": {
           "end": 9,
           "start": 5,
         },
         "value": "User",
       },
     },
-    Object {
+    {
       "kind": "SchemaDefinition",
-      "operationTypes": Array [
-        Object {
+      "operationTypes": [
+        {
           "kind": "OperationTypeDefinition",
           "operation": "query",
-          "type": Object {
+          "type": {
             "kind": "NamedType",
-            "name": Object {
+            "name": {
               "kind": "Name",
-              "loc": Object {
+              "loc": {
                 "end": 10,
                 "start": 5,
               },
