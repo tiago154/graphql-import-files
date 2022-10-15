@@ -1,0 +1,15 @@
+#import './user/user.test.graphql'
+#import "./location/location.test.graphql"
+
+#random comment
+#imports 'aaaaa/ssss'
+
+type Query {
+  user(id: ID!): User!
+  users: [User!]!
+  locations: [Location!]!
+}
+
+type Mutation {
+  addLocation(locationInput: locationInput!): Location!
+}

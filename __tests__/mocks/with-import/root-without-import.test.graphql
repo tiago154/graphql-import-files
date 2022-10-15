@@ -1,0 +1,29 @@
+type Query {
+  user(id: ID!): User!
+  users: [User!]!
+  locations: [Location!]!
+}
+
+type Mutation {
+  addLocation(locationInput: locationInput!): Location!
+}
+
+type User {
+  id: ID!
+  name: String!
+}
+
+type Location {
+  id: ID!
+  name: String!
+  description: String!
+  photo: String!
+}
+
+input locationInput {
+  name: String!
+  description: String!
+  photo: String!
+}
+
+
