@@ -1,3 +1,7 @@
+### v1.2.18 / 2022-10-14
+
+* Added support for the `#import` annotation to the `loadFile` function. This was an open suggestion [here](https://github.com/tiago154/graphql-import-files/issues/16) that way we can add the reading of a file and if necessary include other files through the import annotation.
+
 ### v1.1.18 / 2022-10-01
 
 * Change the return of the `loadFile` function to `DocumentNode`, to be compatible with the subgraph architecture offered by the `@apollo/subgraph - buildSubgraphSchema` package.

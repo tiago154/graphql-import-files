@@ -1,0 +1,12 @@
+type Location {
+  id: ID!
+  name: String!
+  description: String!
+  photo: String!
+}
+
+input locationInput {
+  name: String!
+  description: String!
+  photo: String!
+}

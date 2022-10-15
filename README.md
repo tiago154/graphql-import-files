@@ -23,9 +23,9 @@ Light and easy package that will load .graphql files and use them with syntax hi
 npm i -S graphql-import-files
 ```
 
-## Usage
+## Usage:
 
-### Loading a single file
+## Loading a single file
 
 For example, your files and folders look like this:
 
@@ -54,7 +54,60 @@ server.listen().then(({ url }) => {
 })
 ```
 
-### Loading multiple files
+**The `loadFile` function supports the `#import` annotation and this will allow you to load other files as if it were the import in a js file.**
+
+```
+root
+├──src
+  ├──index.js
+  ├──schema
+    ├──schema.graphql
+    ├──user
+      ├──user.graphql
+    ├──location
+      ├──location.graphql
+```
+
+./src/schema/schema.graphql
+```graphql
+#import './user/user.graphql'
+#import './location/location.graphql'
+
+type Query {
+  user(id: ID!): User
+  location(id: ID!): Location
+}
+```
+
+./src/schema/user/user.graphql
+```graphql
+type User {
+  id: ID!
+  name: String!
+}
+```
+
+./src/schema/location/location.graphql
+```graphql
+type Location {
+  id: ID!
+  name: String!
+}
+```
+
+```js
+// index.js
+// ...
+const { loadFile } = require('graphql-import-files')
+
+const server = new ApolloServer({
+  typeDefs: loadFile('./schema/schema.graphql'), // Always consider the path at the root of the project
+  resolvers
+})
+// ...
+```
+
+## Loading multiple files
 
 For example, your files and folders look like this:
 
