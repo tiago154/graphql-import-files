@@ -1,6 +1,778 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`loadFile success should valid schema 1`] = `
+exports[`loadFile when file path is valid and has file import annotation should valid schema 1`] = `
+{
+  "definitions": [
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [
+            {
+              "defaultValue": undefined,
+              "description": undefined,
+              "directives": [],
+              "kind": "InputValueDefinition",
+              "loc": {
+                "end": 152,
+                "start": 145,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 147,
+                  "start": 145,
+                },
+                "value": "id",
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 152,
+                  "start": 149,
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 151,
+                    "start": 149,
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 151,
+                      "start": 149,
+                    },
+                    "value": "ID",
+                  },
+                },
+              },
+            },
+          ],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 160,
+            "start": 140,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 144,
+              "start": 140,
+            },
+            "value": "user",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 160,
+              "start": 155,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 159,
+                "start": 155,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 159,
+                  "start": 155,
+                },
+                "value": "User",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 179,
+            "start": 164,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 169,
+              "start": 164,
+            },
+            "value": "users",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 179,
+              "start": 171,
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 178,
+                "start": 171,
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 177,
+                  "start": 172,
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 176,
+                    "start": 172,
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 176,
+                      "start": 172,
+                    },
+                    "value": "User",
+                  },
+                },
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 206,
+            "start": 183,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 192,
+              "start": 183,
+            },
+            "value": "locations",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 206,
+              "start": 194,
+            },
+            "type": {
+              "kind": "ListType",
+              "loc": {
+                "end": 205,
+                "start": 194,
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 204,
+                  "start": 195,
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 203,
+                    "start": 195,
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 203,
+                      "start": 195,
+                    },
+                    "value": "Location",
+                  },
+                },
+              },
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 209,
+        "start": 124,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 134,
+          "start": 129,
+        },
+        "value": "Query",
+      },
+    },
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [
+            {
+              "defaultValue": undefined,
+              "description": undefined,
+              "directives": [],
+              "kind": "InputValueDefinition",
+              "loc": {
+                "end": 273,
+                "start": 244,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 257,
+                  "start": 244,
+                },
+                "value": "locationInput",
+              },
+              "type": {
+                "kind": "NonNullType",
+                "loc": {
+                  "end": 273,
+                  "start": 259,
+                },
+                "type": {
+                  "kind": "NamedType",
+                  "loc": {
+                    "end": 272,
+                    "start": 259,
+                  },
+                  "name": {
+                    "kind": "Name",
+                    "loc": {
+                      "end": 272,
+                      "start": 259,
+                    },
+                    "value": "locationInput",
+                  },
+                },
+              },
+            },
+          ],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 285,
+            "start": 232,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 243,
+              "start": 232,
+            },
+            "value": "addLocation",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 285,
+              "start": 276,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 284,
+                "start": 276,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 284,
+                  "start": 276,
+                },
+                "value": "Location",
+              },
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 288,
+        "start": 213,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 226,
+          "start": 218,
+        },
+        "value": "Mutation",
+      },
+    },
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 22,
+            "start": 15,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 17,
+              "start": 15,
+            },
+            "value": "id",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 22,
+              "start": 19,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 21,
+                "start": 19,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 21,
+                  "start": 19,
+                },
+                "value": "ID",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 39,
+            "start": 26,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 30,
+              "start": 26,
+            },
+            "value": "name",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 39,
+              "start": 32,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 38,
+                "start": 32,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 38,
+                  "start": 32,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 42,
+        "start": 0,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 9,
+          "start": 5,
+        },
+        "value": "User",
+      },
+    },
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 26,
+            "start": 19,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 21,
+              "start": 19,
+            },
+            "value": "id",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 26,
+              "start": 23,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 25,
+                "start": 23,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 25,
+                  "start": 23,
+                },
+                "value": "ID",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 43,
+            "start": 30,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 34,
+              "start": 30,
+            },
+            "value": "name",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 43,
+              "start": 36,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 42,
+                "start": 36,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 42,
+                  "start": 36,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 67,
+            "start": 47,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 58,
+              "start": 47,
+            },
+            "value": "description",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 67,
+              "start": 60,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 66,
+                "start": 60,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 66,
+                  "start": 60,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+        {
+          "arguments": [],
+          "description": undefined,
+          "directives": [],
+          "kind": "FieldDefinition",
+          "loc": {
+            "end": 85,
+            "start": 71,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 76,
+              "start": 71,
+            },
+            "value": "photo",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 85,
+              "start": 78,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 84,
+                "start": 78,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 84,
+                  "start": 78,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+      ],
+      "interfaces": [],
+      "kind": "ObjectTypeDefinition",
+      "loc": {
+        "end": 88,
+        "start": 0,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 13,
+          "start": 5,
+        },
+        "value": "Location",
+      },
+    },
+    {
+      "description": undefined,
+      "directives": [],
+      "fields": [
+        {
+          "defaultValue": undefined,
+          "description": undefined,
+          "directives": [],
+          "kind": "InputValueDefinition",
+          "loc": {
+            "end": 130,
+            "start": 117,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 121,
+              "start": 117,
+            },
+            "value": "name",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 130,
+              "start": 123,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 129,
+                "start": 123,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 129,
+                  "start": 123,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+        {
+          "defaultValue": undefined,
+          "description": undefined,
+          "directives": [],
+          "kind": "InputValueDefinition",
+          "loc": {
+            "end": 154,
+            "start": 134,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 145,
+              "start": 134,
+            },
+            "value": "description",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 154,
+              "start": 147,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 153,
+                "start": 147,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 153,
+                  "start": 147,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+        {
+          "defaultValue": undefined,
+          "description": undefined,
+          "directives": [],
+          "kind": "InputValueDefinition",
+          "loc": {
+            "end": 172,
+            "start": 158,
+          },
+          "name": {
+            "kind": "Name",
+            "loc": {
+              "end": 163,
+              "start": 158,
+            },
+            "value": "photo",
+          },
+          "type": {
+            "kind": "NonNullType",
+            "loc": {
+              "end": 172,
+              "start": 165,
+            },
+            "type": {
+              "kind": "NamedType",
+              "loc": {
+                "end": 171,
+                "start": 165,
+              },
+              "name": {
+                "kind": "Name",
+                "loc": {
+                  "end": 171,
+                  "start": 165,
+                },
+                "value": "String",
+              },
+            },
+          },
+        },
+      ],
+      "kind": "InputObjectTypeDefinition",
+      "loc": {
+        "end": 175,
+        "start": 92,
+      },
+      "name": {
+        "kind": "Name",
+        "loc": {
+          "end": 111,
+          "start": 98,
+        },
+        "value": "locationInput",
+      },
+    },
+    {
+      "kind": "SchemaDefinition",
+      "operationTypes": [
+        {
+          "kind": "OperationTypeDefinition",
+          "operation": "query",
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 134,
+                "start": 129,
+              },
+              "value": "Query",
+            },
+          },
+        },
+        {
+          "kind": "OperationTypeDefinition",
+          "operation": "mutation",
+          "type": {
+            "kind": "NamedType",
+            "name": {
+              "kind": "Name",
+              "loc": {
+                "end": 226,
+                "start": 218,
+              },
+              "value": "Mutation",
+            },
+          },
+        },
+      ],
+    },
+  ],
+  "kind": "Document",
+}
+`;
+
+exports[`loadFile when the file path is valid should return a valid schema 1`] = `
 {
   "definitions": [
     {
