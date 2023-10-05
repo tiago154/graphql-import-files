@@ -9,6 +9,5 @@ module.exports = {
   testMatch: [
     '**/__tests__/**/*.test.ts'
   ],
-  snapshotSerializers: ['jest-snapshot-serializer-raw'],
   verbose: true
 }
