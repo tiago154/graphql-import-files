@@ -1,3 +1,12 @@
+### v1.4.0 / 2024-10-06
+
+* Update all project dependencies
+  | Package              | Old Version | New Version |
+  |----------------------|-------------|-------------|
+  | @graphql-tools/merge | ^9.0.0      | ^9.0.7      |
+  | fast-glob            | ^3.3.1      | ^3.3.2      |
+  | graphql              | ^16.8.1     | ^16.9.0     |
+
 ### v1.3.0 / 2023-10-05
 
 * Update all project dependencies
