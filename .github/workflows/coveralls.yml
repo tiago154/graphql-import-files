@@ -28,6 +28,6 @@ jobs:
           CI: true
 
       - name: Upload coverage to Coveralls
-        run: npx coveralls-next < ./coverage/lcov.info
+        run: npx coveralls-next@4.2.1 < ./coverage/lcov.info
         env:
           COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
