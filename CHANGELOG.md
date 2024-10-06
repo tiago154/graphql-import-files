@@ -1,3 +1,7 @@
+### v1.5.0 / 2024-10-06
+
+* Update node version to version 20 in the project
+
 ### v1.4.0 / 2024-10-06
 
 * Update all project dependencies
