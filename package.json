@@ -1,13 +1,13 @@
 {
   "name": "graphql-import-files",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "description": "Light and easy package that will load .graphql files and use them with syntax highlighting.",
   "repository": "git@github.com:tiago154/graphql-import-files.git",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "test": "jest",
-    "coveralls": "jest --coverage --coverageReporters=text-lcov | coveralls",
+    "test:coverage": "jest --coverage",
     "build": "tsc",
     "coverage": "npx http-server coverage/lcov-report",
     "lint": "eslint ./src --ext .ts",
@@ -35,7 +35,6 @@
     "@types/jest": "^29.5.5",
     "@typescript-eslint/eslint-plugin": "^6.7.4",
     "@typescript-eslint/parser": "^6.7.4",
-    "coveralls-next": "^4.2.1",
     "eslint": "^8.50.0",
     "eslint-config-standard": "^17.1.0",
     "eslint-plugin-import": "^2.28.1",

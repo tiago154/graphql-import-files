@@ -1,3 +1,7 @@
+### v1.5.2 / 2024-10-06
+
+* Use coveralls via github actions and remove integration via travis
+
 ### v1.5.1 / 2024-10-06
 
 * Change the package that updates coveralls information and thus remove the vulnerabilities of the old package
