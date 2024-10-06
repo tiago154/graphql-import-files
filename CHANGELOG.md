@@ -1,3 +1,7 @@
+### v1.5.1 / 2024-10-06
+
+* Change the package that updates coveralls information and thus remove the vulnerabilities of the old package
+
 ### v1.5.0 / 2024-10-06
 
 * Update node version to version 20 in the project
