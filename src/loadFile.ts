@@ -1,7 +1,9 @@
 import { readFileSync } from 'fs'
 import { join, dirname } from 'path'
+
 import { mergeTypeDefs } from '@graphql-tools/merge'
-import { DocumentNode } from 'graphql'
+import type { DocumentNode } from 'graphql'
+
 import { getImportPaths } from './get-import-paths'
 
 /**

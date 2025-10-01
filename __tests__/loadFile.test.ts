@@ -19,7 +19,7 @@ describe('loadFile', () => {
 
   describe('when file path does not exist', () => {
     it('should an error when not finding the file', () => {
-      expect(() => loadFile('./__tests__/mocks/file/error.graphql')).toThrowError()
+      expect(() => loadFile('./__tests__/mocks/file/error.graphql')).toThrow()
     })
   })
 })
