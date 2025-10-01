@@ -785,34 +785,34 @@ exports[`loadFile when the file path is valid should return a valid schema 1`] =
           "directives": [],
           "kind": "FieldDefinition",
           "loc": {
-            "end": 27,
-            "start": 19,
+            "end": 26,
+            "start": 18,
           },
           "name": {
             "kind": "Name",
             "loc": {
-              "end": 21,
-              "start": 19,
+              "end": 20,
+              "start": 18,
             },
             "value": "id",
           },
           "type": {
             "kind": "NonNullType",
             "loc": {
-              "end": 27,
-              "start": 23,
+              "end": 26,
+              "start": 22,
             },
             "type": {
               "kind": "NamedType",
               "loc": {
-                "end": 26,
-                "start": 23,
+                "end": 25,
+                "start": 22,
               },
               "name": {
                 "kind": "Name",
                 "loc": {
-                  "end": 26,
-                  "start": 23,
+                  "end": 25,
+                  "start": 22,
                 },
                 "value": "Int",
               },
@@ -825,34 +825,34 @@ exports[`loadFile when the file path is valid should return a valid schema 1`] =
           "directives": [],
           "kind": "FieldDefinition",
           "loc": {
-            "end": 44,
-            "start": 31,
+            "end": 42,
+            "start": 29,
           },
           "name": {
             "kind": "Name",
             "loc": {
-              "end": 35,
-              "start": 31,
+              "end": 33,
+              "start": 29,
             },
             "value": "name",
           },
           "type": {
             "kind": "NonNullType",
             "loc": {
-              "end": 44,
-              "start": 37,
+              "end": 42,
+              "start": 35,
             },
             "type": {
               "kind": "NamedType",
               "loc": {
-                "end": 43,
-                "start": 37,
+                "end": 41,
+                "start": 35,
               },
               "name": {
                 "kind": "Name",
                 "loc": {
-                  "end": 43,
-                  "start": 37,
+                  "end": 41,
+                  "start": 35,
                 },
                 "value": "String",
               },
@@ -865,28 +865,28 @@ exports[`loadFile when the file path is valid should return a valid schema 1`] =
           "directives": [],
           "kind": "FieldDefinition",
           "loc": {
-            "end": 56,
-            "start": 48,
+            "end": 53,
+            "start": 45,
           },
           "name": {
             "kind": "Name",
             "loc": {
-              "end": 51,
-              "start": 48,
+              "end": 48,
+              "start": 45,
             },
             "value": "age",
           },
           "type": {
             "kind": "NamedType",
             "loc": {
-              "end": 56,
-              "start": 53,
+              "end": 53,
+              "start": 50,
             },
             "name": {
               "kind": "Name",
               "loc": {
-                "end": 56,
-                "start": 53,
+                "end": 53,
+                "start": 50,
               },
               "value": "Int",
             },
@@ -898,46 +898,46 @@ exports[`loadFile when the file path is valid should return a valid schema 1`] =
           "directives": [],
           "kind": "FieldDefinition",
           "loc": {
-            "end": 76,
-            "start": 60,
+            "end": 72,
+            "start": 56,
           },
           "name": {
             "kind": "Name",
             "loc": {
-              "end": 64,
-              "start": 60,
+              "end": 60,
+              "start": 56,
             },
             "value": "tags",
           },
           "type": {
             "kind": "NonNullType",
             "loc": {
-              "end": 76,
-              "start": 66,
+              "end": 72,
+              "start": 62,
             },
             "type": {
               "kind": "ListType",
               "loc": {
-                "end": 75,
-                "start": 66,
+                "end": 71,
+                "start": 62,
               },
               "type": {
                 "kind": "NonNullType",
                 "loc": {
-                  "end": 74,
-                  "start": 67,
+                  "end": 70,
+                  "start": 63,
                 },
                 "type": {
                   "kind": "NamedType",
                   "loc": {
-                    "end": 73,
-                    "start": 67,
+                    "end": 69,
+                    "start": 63,
                   },
                   "name": {
                     "kind": "Name",
                     "loc": {
-                      "end": 73,
-                      "start": 67,
+                      "end": 69,
+                      "start": 63,
                     },
                     "value": "String",
                   },
@@ -950,7 +950,7 @@ exports[`loadFile when the file path is valid should return a valid schema 1`] =
       "interfaces": [],
       "kind": "ObjectTypeDefinition",
       "loc": {
-        "end": 79,
+        "end": 74,
         "start": 0,
       },
       "name": {

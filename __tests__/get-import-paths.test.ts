@@ -1,6 +1,7 @@
-import { getImportPaths } from '../src/get-import-paths'
 import { readFileSync } from 'fs'
 import { join } from 'path'
+
+import { getImportPaths } from '../src/get-import-paths'
 
 describe('getImportPaths', () => {
   describe('when file has file import annotation', () => {

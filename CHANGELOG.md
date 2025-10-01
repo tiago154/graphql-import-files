@@ -1,3 +1,7 @@
+### v1.6.0 / 2025-10-01
+
+* Upgrade eslint to version 9
+
 ### v1.5.2 / 2024-10-06
 
 * Use coveralls via github actions and remove integration via travis

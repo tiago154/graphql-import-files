@@ -1,8 +1,9 @@
 import { readFileSync } from 'fs'
 import { join } from 'path'
+
 import glob from 'fast-glob'
 import { mergeTypeDefs } from '@graphql-tools/merge'
-import { DocumentNode } from 'graphql'
+import type { DocumentNode } from 'graphql'
 
 /**
  * Loads multiple graphql files, use .graphql or .gql.
